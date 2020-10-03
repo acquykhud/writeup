@@ -594,6 +594,7 @@ __int64 __fastcall main_ZPmQQLBPKLEagZpz(__int64 a1, __int64 a2, __int64 a3, __i
 - Phần 2 yêu cầu ta phải có password, password gồm 8 ký tự, mỗi ký tự thuộc `[0-9]`, và 2 ký tự đầu là `75`.
 - Ta chỉ cần viết 1 đoạn code bruteforce 1 triệu trường hợp để ra được part 2 của flag.
 
+# PWN
 ## SimpleBOF
 - Ghi đè return address thành địa chỉ của hàm `success`.
 
@@ -649,6 +650,8 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 
 ## CL
 - Giống simpleBOF, nhưng ta chỉ cần ghi thêm 2 argument vào stack.
+
+# Crypto + Forensics
 
 ## NoobEncoding
 - Dựa vào input để decode đoạn message nhiều lần -> ra được flag.
